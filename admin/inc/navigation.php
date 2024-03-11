@@ -39,14 +39,7 @@
                         </p>
                       </a>
                     </li>
-                    <!-- <li class="nav-item dropdown">
-                      <a href="<?php echo base_url ?>admin/?page=inventory" class="nav-link nav-inventory">
-                        <i class="nav-icon fas fa-clipboard-list"></i>
-                        <p>
-                          Inventory List
-                        </p>
-                      </a> -->
-                    </li>
+                
                     <li class="nav-item dropdown">
                       <a href="<?php echo base_url ?>admin/?page=orders" class="nav-link nav-orders">
                         <i class="nav-icon fas fa-list"></i>
@@ -55,39 +48,7 @@
                         </p>
                       </a>
                     </li>
-                    <li class="nav-item dropdown">
-                      <a href="<?php echo base_url ?>admin/?page=sales" class="nav-link nav-sales">
-                        <i class="nav-icon fas fa-file"></i>
-                        <p>
-                          Sales Report
-                        </p>
-                      </a>
-                    </li>
-                    <li class="nav-header">Maintenance</li>
-                    <li class="nav-item dropdown">
-                      <a href="<?php echo base_url ?>admin/?page=maintenance/category" class="nav-link nav-maintenance/category">
-                        <i class="nav-icon fas fa-th-list"></i>
-                        <p>
-                          Category List
-                        </p>
-                      </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a href="<?php echo base_url ?>admin/?page=maintenance/sub_category" class="nav-link nav-maintenance/sub_category">
-                        <i class="nav-icon fas fa-th-list"></i>
-                        <p>
-                          Sub Category List
-                        </p>
-                      </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a href="<?php echo base_url ?>admin/?page=system_info" class="nav-link nav-system_info">
-                        <i class="nav-icon fas fa-cogs"></i>
-                        <p>
-                          Settings
-                        </p>
-                      </a>
-                    </li>
+                    
                   </ul>
                 </nav>
                 <!-- /.sidebar-menu -->

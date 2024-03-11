@@ -51,8 +51,7 @@ if(isset($_GET['id']) && $_GET['id'] > 0){
 			</div>
             <div class="form-group">
 				<label for="description" class="control-label">Description</label>
-                <textarea name="description" cols="30" rows="2" class="form-control form no-resize"><?php echo isset($description) ? htmlspecialchars($description) : ''; ?></textarea>
-
+                <textarea name="description" id="" cols="30" rows="2" class="form-control form no-resize "><?php echo isset($description) ? $description : ''; ?></textarea>
 			</div>
             <div class="form-group">
 				<label for="status" class="control-label">Status</label>
